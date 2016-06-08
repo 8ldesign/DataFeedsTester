@@ -19,3 +19,9 @@ This is targeted to test any data feed file having urls - for the validity of th
 1. Execute the 'feedTester' in the src folder with python
     Ex: python feedTester
 
+
+## Known Bugs
+1. The current tester doesn't eliminate duplicates in few of the top level feeds
+
+## Scope of improvements
+1. This program can be made to run and send an email with 5x errors and 4x errors as a list
