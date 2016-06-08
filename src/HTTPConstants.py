@@ -3,7 +3,7 @@ __author__ = 'v-mudrak-8l'
 class HTTPConstants:
     responseCodeDictionary = {  '100'   :   'CONTINUE',
                                 '101'   :   'SWITCHING_PROTOCOLS',
-                                '102'   :	'PROCESSING',
+                                '102'   :   'PROCESSING',
                                 '200'   :   'OK',
                                 '201'	:   'CREATED',
                                 '202'	:   'ACCEPTED',
