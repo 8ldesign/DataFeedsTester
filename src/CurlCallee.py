@@ -44,7 +44,7 @@ class CurlCallee:
                             lineUrls = re.findall(r'(?:http|https|www)(?:[^\\\]"<>]*)', line)
                             #lineUrls = re.findall(r'(https?://\S+)', line)
                             urls[key].append(lineUrls)
-        except FileNotFoundError:
+        except IOError:
             logging.error("Check the file names in FileConstants file")
         except UnicodeDecodeError:
             logging.error("Make sure that the file is in UTF-8 format " + file)
